@@ -14,7 +14,7 @@ class AS5600L:
     AGC_REG     = 0x1A
 
     def __init__(self, i2cId = 0, i2cFreq = 1000000, hyst = 0, powerMode = 0, watchdog = 0,
-                 fastFilterThreshold = 0, slowFilter = 0, pwmFreq = 0, outputStage = 0) -> None:
+                 fastFilterThreshold = 0, slowFilter = 0, pwmFreq = 0, outputStage = 0)
         """Init
 
         Args:
